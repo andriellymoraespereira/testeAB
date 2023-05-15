@@ -8,8 +8,7 @@ Para obter uma visão mais abrangente e detalhada da análise exploratória de d
 
 # Teste A/B de marketing
 
-<#img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/projeto.png" alt="">
-![image1!](projeto.png)
+![image1!](imagens/projeto.png)
 
 # 1.0. About
 Neste projeto, uma empresa de marketing deseja executar campanhas de sucesso, mas o mercado é complexo e várias opções podem funcionar. Então, normalmente eles realizam testes A/B, que é um processo de experimentação aleatória em que duas ou mais versões de uma variável (página da web, elemento de página, banner, etc.) são mostradas para diferentes segmentos de pessoas ao mesmo tempo para determinar qual versão deixa o máximo impacto e impulsiona as métricas de negócios.
