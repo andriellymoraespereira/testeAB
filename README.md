@@ -137,24 +137,24 @@ Parâmetros que usaremos para executar o teste:
 
 2- Beta  𝛽: probabilidade de aceitar a hipótese nula quando a hipótese nula é realmente falsa.
 
-<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t.png" alt="">
+ ![image1!](imagens/t2.png)
  
 ## 4.3. Tarefa 3 - Plot da Distribuição
 Criamos o Plot da distribuição da diferença entre as duas amostras e comparamos os resultados.
 Podemos comparar os dois grupos traçando a distribuição do grupo de controle e calculando a  probabilidade de obter o resultado de nosso grupo de teste.
 
 
-<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t3.png" alt="">
+ ![image1!](imagens/t3.png)
 
-<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t4.png" alt="">
-
+ ![image1!](imagens/t4.png)
+ 
 Podemos ver que o grupo de teste converteu mais usuários do que o grupo de controle. Também podemos ver que o pico dos resultados do grupo de teste é inferior ao do grupo de controle.
 
 Mas como interpretamos a diferença no pico da probabilidade?
 
 Devemos nos concentrar, em vez disso, na taxa de conversão para que tenhamos uma comparação de termos equivalentes. Para calcular isso, precisamos padronizar os dados e comparar a probabilidade de sucesso, p, para cada grupo
 
-<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t5.png" alt="">
+ ![image1!](imagens/t5.png)
 
 igual à diferença média entre o grupo de controle e teste.
 
@@ -168,7 +168,7 @@ Observação: a variância é o desvio padrão ao quadrado. A variância da dife
 
 ### 4.3.1. Plot da Distribuição de Probabilidade
 
-<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t6.png" alt="">
+ ![image1!](imagens/t6.png)
 
 Visualmente, o gráfico para as hipóteses nula e alternativa é muito semelhante aos outros gráficos acima. Felizmente, as duas curvas têm formato idêntico, portanto, podemos apenas comparar a distância entre as médias das duas distribuições. Podemos ver que a curva de hipótese alternativa sugere que o grupo de teste tem uma taxa de conversão maior do que o grupo de controle. Este gráfico também pode ser usado para determinar diretamente o poder estatístico.
 
@@ -176,7 +176,7 @@ Visualmente, o gráfico para as hipóteses nula e alternativa é muito semelhant
 ## 4.4. Tarefa 4 - Calculando o Poder Estatístico¶
 Poder Estatístico e Nível de Significância
 
-<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t6.png" alt="">
+ ![image1!](imagens/t7.png)
 
 A área sombreada em verde representa o poder estatístico e o valor calculado para o poder também é exibido no gráfico. As linhas tracejadas em cinza no gráfico acima representam o intervalo de confiança (95% para o gráfico acima) para a hipótese nula. O poder estatístico é calculado encontrando a área sob a distribuição de hipótese alternativa e fora do intervalo de confiança da hipótese nula.
 
@@ -195,13 +195,13 @@ Nossas curvas para a hipótese nula e alternativa tornaram-se mais estreitas e m
 
 O próximo problema que devemos encontrar é determinar o tamanho mínimo da amostra de que precisaremos para o experimento. E isso é útil saber porque está diretamente relacionado à rapidez com que podemos concluir os experimentos e fornecer resultados estatisticamente significativos para a área de negócio.
 
-<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t7.png" alt="">
+ ![image1!](imagens/t7.png)
 
-<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t8.png" alt="">
+ ![image1!](imagens/t8.png)
 
 O tamanho mínimo necessário para a amostra.
 
-<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t9.png" alt="">
+ ![image1!](imagens/t9.png)
 
 # 5.0. Conclusions
 
