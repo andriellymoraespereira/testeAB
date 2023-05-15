@@ -8,7 +8,7 @@ Para obter uma visão mais abrangente e detalhada da análise exploratória de d
 
 # Teste A/B de marketing
 
-<img src="https://github.com/andriellymoraespereira/testeAB/img/projeto.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/projeto.png" alt="">
 
 # 1.0. About
 Neste projeto, uma empresa de marketing deseja executar campanhas de sucesso, mas o mercado é complexo e várias opções podem funcionar. Então, normalmente eles realizam testes A/B, que é um processo de experimentação aleatória em que duas ou mais versões de uma variável (página da web, elemento de página, banner, etc.) são mostradas para diferentes segmentos de pessoas ao mesmo tempo para determinar qual versão deixa o máximo impacto e impulsiona as métricas de negócios.
@@ -137,16 +137,16 @@ Parâmetros que usaremos para executar o teste:
 
 2- Beta  𝛽: probabilidade de aceitar a hipótese nula quando a hipótese nula é realmente falsa.
 
-<img src="https://github.com/andriellymoraespereira/testeAB/imgagens/t.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t.png" alt="">
  
 ## 4.3. Tarefa 3 - Plot da Distribuição
 Criamos o Plot da distribuição da diferença entre as duas amostras e comparamos os resultados.
 Podemos comparar os dois grupos traçando a distribuição do grupo de controle e calculando a  probabilidade de obter o resultado de nosso grupo de teste.
 
 
-<img src="https://github.com/andriellymoraespereira/testeAB/imgagens/t3.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t3.png" alt="">
 
-<img src="https://github.com/andriellymoraespereira/testeAB/imgagens/t4.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t4.png" alt="">
 
 Podemos ver que o grupo de teste converteu mais usuários do que o grupo de controle. Também podemos ver que o pico dos resultados do grupo de teste é inferior ao do grupo de controle.
 
@@ -154,7 +154,7 @@ Mas como interpretamos a diferença no pico da probabilidade?
 
 Devemos nos concentrar, em vez disso, na taxa de conversão para que tenhamos uma comparação de termos equivalentes. Para calcular isso, precisamos padronizar os dados e comparar a probabilidade de sucesso, p, para cada grupo
 
-<img src="https://github.com/andriellymoraespereira/testeAB/imgagens/t5.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t5.png" alt="">
 
 igual à diferença média entre o grupo de controle e teste.
 
@@ -168,7 +168,7 @@ Observação: a variância é o desvio padrão ao quadrado. A variância da dife
 
 ### 4.3.1. Plot da Distribuição de Probabilidade
 
-<img src="https://github.com/andriellymoraespereira/testeAB/imgagens/t6.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t6.png" alt="">
 
 Visualmente, o gráfico para as hipóteses nula e alternativa é muito semelhante aos outros gráficos acima. Felizmente, as duas curvas têm formato idêntico, portanto, podemos apenas comparar a distância entre as médias das duas distribuições. Podemos ver que a curva de hipótese alternativa sugere que o grupo de teste tem uma taxa de conversão maior do que o grupo de controle. Este gráfico também pode ser usado para determinar diretamente o poder estatístico.
 
@@ -176,7 +176,7 @@ Visualmente, o gráfico para as hipóteses nula e alternativa é muito semelhant
 ## 4.4. Tarefa 4 - Calculando o Poder Estatístico¶
 Poder Estatístico e Nível de Significância
 
-<img src="https://github.com/andriellymoraespereira/testeAB/imgagens/t6.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t6.png" alt="">
 
 A área sombreada em verde representa o poder estatístico e o valor calculado para o poder também é exibido no gráfico. As linhas tracejadas em cinza no gráfico acima representam o intervalo de confiança (95% para o gráfico acima) para a hipótese nula. O poder estatístico é calculado encontrando a área sob a distribuição de hipótese alternativa e fora do intervalo de confiança da hipótese nula.
 
@@ -195,13 +195,13 @@ Nossas curvas para a hipótese nula e alternativa tornaram-se mais estreitas e m
 
 O próximo problema que devemos encontrar é determinar o tamanho mínimo da amostra de que precisaremos para o experimento. E isso é útil saber porque está diretamente relacionado à rapidez com que podemos concluir os experimentos e fornecer resultados estatisticamente significativos para a área de negócio.
 
-<img src="https://github.com/andriellymoraespereira/testeAB/imgagens/t7.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t7.png" alt="">
 
-<img src="https://github.com/andriellymoraespereira/testeAB/imgagens/t8.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t8.png" alt="">
 
 O tamanho mínimo necessário para a amostra.
 
-<img src="https://github.com/andriellymoraespereira/testeAB/t9.png" alt="">
+<img src="https://github.com/andriellymoraespereira/testeAB/tree/master/imagens/t9.png" alt="">
 
 # 5.0. Conclusions
 
